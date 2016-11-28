@@ -12,28 +12,9 @@ document.documentElement.className = document.documentElement.className.replace(
 // Check that all required assets are uploaded and up-to-date
 if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "require.js", "index.css"], "outOfDate":[]};
 </script>
-  
-  <title>Домашняя</title>
-  <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3916556066"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=366531758" id="pagesheet"/>
-   </head>
- <body class="museBGSize">
-
-  <div class="clearfix" id="page"><!-- group -->
-   <div class="clearfix grpelem" id="pu134-4"><!-- group -->
-    <div class="browser_width" id="u134-4-bw">
-     <div class="gradient clearfix" id="u134-4"><!-- content -->
-      <p>v</p>
-     </div>
-    </div>
-    <div class="clearfix" id="u143"><!-- group -->
-     <a class="nonblock nontext MuseLinkActive" id="u135-4" href="index.html"><!-- rasterized frame --><img id="u135-4_img" alt="Портфолька" width="124" height="38" src="images/u135-4-a.png?crc=420122232"/></a>
-     <a class="nonblock nontext MuseLinkActive rounded-corners shadow" id="u136" href="index.html"><!-- simple frame --></a>
-    </div>
-   </div>
-   <div class="grpelem" id="u343"><!-- custom html -->
-    <meta name="viewport" content="user-scalable=0"/>
+   <div id="u351"><!-- custom html -->
+    <!DOCTYPE html>
+<meta name="viewport" content="user-scalable=1"/>
 <html>
 <head>
     <title>Sword</title>
@@ -41,16 +22,33 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 </head>
 <body>
     <script>
-        marmoset.embed( 'Model.mview', { width: 800, height: 600, autoStart: true, fullFrame: false, pagePreset: false } );
+        marmoset.embed( 'Model.mview', { width: 800, height: 600, autoStart: true, fullFrame: true, pagePreset: false } );
     </script>
 </body>
 </html>
 
+  
+  <title>Домашняя</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3916556066"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4109958898" id="pagesheet"/>
+   </head>
+ <body class="museBGSize">
 
+  <div class="clearfix" id="page"><!-- group -->
+   <div class="browser_width" id="u134-4-bw">
+    <div class="gradient clearfix" id="u134-4"><!-- content -->
+     <p>v</p>
+    </div>
    </div>
+   <div class="clearfix" id="u143"><!-- group -->
+    <a class="nonblock nontext MuseLinkActive" id="u135-4" href="index.html"><!-- rasterized frame --><img id="u135-4_img" alt="Портфолька" width="124" height="38" src="images/u135-4-a.png?crc=420122232"/></a>
+    <a class="nonblock nontext MuseLinkActive rounded-corners shadow" id="u136" href="index.html"><!-- simple frame --></a>
+   </div>
+
    <a class="nonblock nontext museBGSize" id="u182" href="http://stories.everypony.ru"><!-- simple frame --></a>
-   <div class="verticalspacer" data-offset-top="753" data-content-above-spacer="789" data-content-below-spacer="97"></div>
-  </div>
+
+
   <!-- Other scripts -->
   <script type="text/javascript">
    window.Muse.assets.check=function(){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var a={},b=function(){$('link[type="text/css"]').each(function(){var b=($(this).attr("href")||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);b&&b[1]&&b[2]&&(a[b[1]]=b[2])})},c=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),16);return 0},d=function(d){if("undefined"!==
