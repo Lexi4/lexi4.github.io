@@ -1,7 +1,7 @@
-<manifest alg="2" build="2015.2.0.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="lexi4.github.io" resolutions="1x" timestamp="1480370740275">
+<manifest alg="2" build="2015.2.0.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="lexi4.github.io" resolutions="1x" timestamp="1480371384817">
   <folder name="css">
     <file name="site_global.css" crc="3916556066"/>
-    <file name="index.css" crc="4109958898" ref="index"/>
+    <file name="index.css" crc="4092032574" ref="index"/>
   </folder>
   <folder name="assets">
     <file name="розовые-глазки.fb2" crc="3763569455" seo="true" mt="1472109930000"/>
@@ -22,5 +22,5 @@
     <file name="aftermath__sfm__by_argodaemon-d77fx6e.jpg" crc="533145959" ref="index"/>
     <file name="u135-4-a.png" crc="420122232" ref="index"/>
   </folder>
-  <file name="index.html" crc="3815647041" seo="true" mt="1480370734518" redirect="true"/>
+  <file name="index.html" crc="70372422" seo="true" mt="1480371379113" redirect="true"/>
 </manifest>
