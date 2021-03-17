@@ -102,8 +102,3 @@ theme: cactus
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: git
-  repo: https://github.com/hexojs/hexo-starter.git
-  branch: gh-pages
-  message: {{ now('YYYY-MM-DD HH:mm:ss') }}
