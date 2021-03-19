@@ -1,0 +1,25 @@
+---
+title: Уборка мусора в Git
+---
+
+More info: [Source](https://noteskeeper.ru/heritage/621/)
+
+## Guide
+
+### Remove all unused objects
+
+``` bash
+git gc
+```
+### Remove non-exist branches
+
+``` bash
+git remote prune origin
+```
+### Remove unreach commits
+
+``` bash
+git reflog expire --expire=1.minute refs/heads/development
+git fsck –unreachable
+git gc
+```
